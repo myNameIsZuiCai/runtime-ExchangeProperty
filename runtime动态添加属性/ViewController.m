@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NSObject+objc.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSObject *obj=[[NSObject alloc]init];
+    obj.name=@"123";
+    NSLog(@"%@",obj.name);
 }
 
 

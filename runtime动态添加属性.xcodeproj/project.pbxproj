@@ -15,6 +15,7 @@
 		7E48A8F91E667FF3000FC043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E48A8F71E667FF3000FC043 /* LaunchScreen.storyboard */; };
 		7E48A9041E667FF3000FC043 /* runtime______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48A9031E667FF3000FC043 /* runtime______Tests.m */; };
 		7E48A90F1E667FF4000FC043 /* runtime______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48A90E1E667FF4000FC043 /* runtime______UITests.m */; };
+		7E48A9211E6681BA000FC043 /* NSObject+objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E48A9201E6681BA000FC043 /* NSObject+objc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7E48A90A1E667FF4000FC043 /* runtime动态添加属性UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "runtime动态添加属性UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E48A90E1E667FF4000FC043 /* runtime______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "runtime______UITests.m"; sourceTree = "<group>"; };
 		7E48A9101E667FF4000FC043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E48A91F1E6681BA000FC043 /* NSObject+objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+objc.h"; sourceTree = "<group>"; };
+		7E48A9201E6681BA000FC043 /* NSObject+objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+objc.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				7E48A8F71E667FF3000FC043 /* LaunchScreen.storyboard */,
 				7E48A8FA1E667FF3000FC043 /* Info.plist */,
 				7E48A8E91E667FF3000FC043 /* Supporting Files */,
+				7E48A91F1E6681BA000FC043 /* NSObject+objc.h */,
+				7E48A9201E6681BA000FC043 /* NSObject+objc.m */,
 			);
 			path = "runtime动态添加属性";
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				7E48A8F11E667FF3000FC043 /* ViewController.m in Sources */,
 				7E48A8EE1E667FF3000FC043 /* AppDelegate.m in Sources */,
 				7E48A8EB1E667FF3000FC043 /* main.m in Sources */,
+				7E48A9211E6681BA000FC043 /* NSObject+objc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
